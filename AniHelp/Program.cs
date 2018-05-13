@@ -24,7 +24,7 @@ namespace GoHome
         /// <summary>
         /// Состояние животного
         /// </summary>
-        public List<AnimalStatus> Status { get; set; }
+        public AnimalStatus Status { get; set; }
         /// <summary>
         /// Необходимые действия
         /// </summary>
@@ -47,7 +47,7 @@ namespace GoHome
         /// <summary>
         /// Проблемы со здоровьем
         /// </summary>
-        public string HealthTroubles { get; set; } 
+        public List<string> HealthTroubles { get; set; } 
         /// <summary>
         /// Следы плохого обращения
         /// </summary>
