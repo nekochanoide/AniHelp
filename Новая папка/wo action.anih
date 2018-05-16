@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<AnimalDataDto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Filled>2018-05-15T19:59:47.8095452+05:00</Filled>
+  <Name>КОтэ</Name>
+  <SeizurePlace>Магнитогорск</SeizurePlace>
+  <Status>
+    <Collar>Есть следы</Collar>
+    <Pregnancy>true</Pregnancy>
+    <HealthTroubles>
+      <string>жизнь говно</string>
+      <string>жизнь по прежнему говно</string>
+    </HealthTroubles>
+    <CrueltySigns>true</CrueltySigns>
+    <EuthanasiaCause>ахуел</EuthanasiaCause>
+  </Status>
+  <Action>Released</Action>
+</AnimalDataDto>

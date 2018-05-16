@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<AnimalDataDto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Filled>2018-05-16T19:21:39.3093833+05:00</Filled>
+  <Name>1561651</Name>
+  <SeizurePlace />
+  <Status>
+    <Pregnancy>false</Pregnancy>
+    <HealthTroubles />
+    <CrueltySigns>false</CrueltySigns>
+  </Status>
+  <Action>OwnerSearch</Action>
+</AnimalDataDto>

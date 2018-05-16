@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<AnimalDataDto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Filled>2018-05-16T19:28:10.9466403+05:00</Filled>
+  <Name />
+  <SeizurePlace />
+  <Status>
+    <Collar>пустой</Collar>
+    <Pregnancy>false</Pregnancy>
+    <HealthTroubles>
+      <string>Лапка болит</string>
+      <string>Животик пустой(</string>
+    </HealthTroubles>
+    <CrueltySigns>true</CrueltySigns>
+  </Status>
+  <Action>BodyDispose</Action>
+</AnimalDataDto>

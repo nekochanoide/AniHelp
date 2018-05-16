@@ -1,0 +1,14 @@
+C:\Users\motya\source\repos\AniHelp\AniHelp.UI\obj\Debug\AniHelp.UI.csprojResolveAssemblyReference.cache
+C:\Users\motya\source\repos\AniHelp\AniHelp.UI\obj\Debug\AniHelp.UI.Form1.resources
+C:\Users\motya\source\repos\AniHelp\AniHelp.UI\obj\Debug\AniHelp.UI.Properties.Resources.resources
+C:\Users\motya\source\repos\AniHelp\AniHelp.UI\obj\Debug\AniHelp.UI.csproj.GenerateResource.cache
+C:\Users\motya\source\repos\AniHelp\AniHelp.UI\obj\Debug\AniHelp.UI.csproj.CoreCompileInputs.cache
+C:\Users\motya\source\repos\AniHelp\AniHelp.UI\bin\Debug\AniHelp.UI.exe.config
+C:\Users\motya\source\repos\AniHelp\AniHelp.UI\bin\Debug\AniHelp.UI.exe
+C:\Users\motya\source\repos\AniHelp\AniHelp.UI\bin\Debug\AniHelp.UI.pdb
+C:\Users\motya\source\repos\AniHelp\AniHelp.UI\bin\Debug\AniHelp.dll
+C:\Users\motya\source\repos\AniHelp\AniHelp.UI\bin\Debug\AniHelp.pdb
+C:\Users\motya\source\repos\AniHelp\AniHelp.UI\bin\Debug\AniHelp.dll.config
+C:\Users\motya\source\repos\AniHelp\AniHelp.UI\obj\Debug\AniHelp.UI.csproj.CopyComplete
+C:\Users\motya\source\repos\AniHelp\AniHelp.UI\obj\Debug\AniHelp.UI.exe
+C:\Users\motya\source\repos\AniHelp\AniHelp.UI\obj\Debug\AniHelp.UI.pdb

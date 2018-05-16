@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 
-namespace GoHome
+namespace AniHelp
 {
     /// <summary>
     /// Информация о животном
@@ -18,7 +18,7 @@ namespace GoHome
         /// </summary>
         public string Name { get; set; }
         /// <summary>
-        /// Место поимки
+        /// Время поимки
         /// </summary>
         public string SeizurePlace { get; set; }
         /// <summary>
@@ -26,9 +26,9 @@ namespace GoHome
         /// </summary>
         public AnimalStatus Status { get; set; }
         /// <summary>
-        /// Необходимые действия
+        /// Необходимое действие
         /// </summary>
-        public List<Actions> Actions { get; set; }
+        public Actions Action { get; set; }
     }
 
     /// <summary>
@@ -47,7 +47,7 @@ namespace GoHome
         /// <summary>
         /// Проблемы со здоровьем
         /// </summary>
-        public List<string> HealthTroubles { get; set; } 
+        public List<string> HealthTroubles { get; set; }
         /// <summary>
         /// Следы плохого обращения
         /// </summary>
@@ -57,23 +57,7 @@ namespace GoHome
         /// </summary>
         public string EuthanasiaCause { get; set; }
     }
-
-    /// <summary>
-    /// Действия
-    /// </summary>
-    public class Actions
-    {
-       /// <summary>
-       /// Вид действия
-       /// </summary>
-        public ActionType Type { get; set; }
-
-    }
-
-    /// <summary>
-    /// Вид действия
-    /// </summary>
-    public enum ActionType
+    public enum Actions
     {
         /// <summary>
         /// Отпущен
@@ -83,10 +67,6 @@ namespace GoHome
         /// Госпитализация
         /// </summary>
         Hospitalization,
-        /// <summary>
-        /// Первая помощь
-        /// </summary>
-        FirstAid,
         /// <summary>
         /// Поиск хозяина
         /// </summary>
