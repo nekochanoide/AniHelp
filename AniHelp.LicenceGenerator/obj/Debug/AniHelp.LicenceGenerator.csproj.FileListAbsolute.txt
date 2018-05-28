@@ -1,0 +1,11 @@
+C:\Users\motya\source\repos\AniHelp\AniHelp.LicenceGenerator\bin\Debug\AniHelp.LicenceGenerator.exe.config
+C:\Users\motya\source\repos\AniHelp\AniHelp.LicenceGenerator\bin\Debug\AniHelp.LicenceGenerator.exe
+C:\Users\motya\source\repos\AniHelp\AniHelp.LicenceGenerator\bin\Debug\AniHelp.LicenceGenerator.pdb
+C:\Users\motya\source\repos\AniHelp\AniHelp.LicenceGenerator\bin\Debug\AniHelp.dll
+C:\Users\motya\source\repos\AniHelp\AniHelp.LicenceGenerator\bin\Debug\AniHelp.pdb
+C:\Users\motya\source\repos\AniHelp\AniHelp.LicenceGenerator\bin\Debug\AniHelp.dll.config
+C:\Users\motya\source\repos\AniHelp\AniHelp.LicenceGenerator\obj\Debug\AniHelp.LicenceGenerator.csprojResolveAssemblyReference.cache
+C:\Users\motya\source\repos\AniHelp\AniHelp.LicenceGenerator\obj\Debug\AniHelp.LicenceGenerator.csproj.CoreCompileInputs.cache
+C:\Users\motya\source\repos\AniHelp\AniHelp.LicenceGenerator\obj\Debug\AniHelp.LicenceGenerator.csproj.CopyComplete
+C:\Users\motya\source\repos\AniHelp\AniHelp.LicenceGenerator\obj\Debug\AniHelp.LicenceGenerator.exe
+C:\Users\motya\source\repos\AniHelp\AniHelp.LicenceGenerator\obj\Debug\AniHelp.LicenceGenerator.pdb
