@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AniHelp", "AniHelp\AniHelp.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AniHelp.UI", "AniHelp.UI\AniHelp.UI.csproj", "{6C9871A0-3606-482E-A863-155806108CB7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AniHelp.WEB", "AniHelp.WEB\AniHelp.WEB.csproj", "{AF6EEDD8-5195-4E11-AAF9-D43962D3BDF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6C9871A0-3606-482E-A863-155806108CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C9871A0-3606-482E-A863-155806108CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C9871A0-3606-482E-A863-155806108CB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF6EEDD8-5195-4E11-AAF9-D43962D3BDF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF6EEDD8-5195-4E11-AAF9-D43962D3BDF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF6EEDD8-5195-4E11-AAF9-D43962D3BDF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF6EEDD8-5195-4E11-AAF9-D43962D3BDF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

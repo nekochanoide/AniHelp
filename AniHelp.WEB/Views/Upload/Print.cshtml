@@ -1,0 +1,43 @@
+﻿@model AniHelp.AnimalDataDto
+
+@{
+    ViewBag.Title = "Print";
+}
+
+<h2>Print</h2>
+
+<p>Заполнено @Model.Filled</p>
+<p>Название животного: @Model.Name</p>
+<p>Место поимки: @Model.SeizurePlace</p>
+<p>Предпринятое действие: @Model.Action</p>
+@if (Model.Status.EuthanasiaCause != null)
+{<p>Животное было усыплено по причине: @Model.Status.EuthanasiaCause</p>}
+@if (Model.Status.Collar != null)
+{<p>Надпись на ошейнике: @Model.Status.Collar</p>}
+@if (Model.Status.Pregnancy)
+{<p>Во время поимки животное было беременно</p>}
+@if (Model.Status.CrueltySigns)
+{<p>Были замечены следы насилия над животным</p>}
+
+<table class="table table-bordered table-responsive table-hover">
+    <tr>
+        Проблемы со здоровьем
+    </tr>
+    <tbody>
+
+        @foreach (var ht in Model.Status.HealthTroubles)
+        {
+            <tr>
+
+                <td>
+
+                    <fieldset>
+                        <b>
+                            @ht
+                        </b>
+                    </fieldset>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -18,7 +18,7 @@ namespace AniHelp
         /// </summary>
         public string Name { get; set; }
         /// <summary>
-        /// Время поимки
+        /// Место поимки
         /// </summary>
         public string SeizurePlace { get; set; }
         /// <summary>

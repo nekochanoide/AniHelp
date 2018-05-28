@@ -1,0 +1,36 @@
+﻿@model AniHelp.WEB.Models.DbAnimalData
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Проблемы со здоровьем</h2>
+
+
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>
+
+
+
+<table class="table table-bordered table-responsive table-hover">
+    
+    <tbody>
+
+        @foreach (var wp in Model.HealthTroubles)
+        {
+            <tr>
+
+                <td style="border:1px solid black">
+
+                    <fieldset>
+                        <b>
+                            @wp.HealthTrouble
+                        </b>
+                    </fieldset>
+                </td>
+               
+            </tr>
+        }
+    </tbody>
+</table>

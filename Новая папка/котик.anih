@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<AnimalDataDto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Filled>2018-05-23T20:40:31.5802005+05:00</Filled>
+  <Name>Пушистик</Name>
+  <SeizurePlace>Магазин</SeizurePlace>
+  <Status>
+    <Collar>Верните домой плиз</Collar>
+    <Pregnancy>false</Pregnancy>
+    <HealthTroubles>
+      <string>йцу</string>
+      <string>йцуй</string>
+    </HealthTroubles>
+    <CrueltySigns>false</CrueltySigns>
+  </Status>
+  <Action>OwnerSearch</Action>
+</AnimalDataDto>

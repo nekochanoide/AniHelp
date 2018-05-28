@@ -21,5 +21,9 @@ namespace AniHelp
                 return (AnimalDataDto)Xs.Deserialize(fileStream);
             }
         }
+        public static AnimalDataDto LoadFromStream(Stream file)
+        {
+            return (AnimalDataDto)Xs.Deserialize(file);
+        }
     }
 }

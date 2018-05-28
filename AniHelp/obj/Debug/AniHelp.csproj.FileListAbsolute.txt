@@ -1,4 +1,3 @@
-C:\Users\motya\source\repos\AniHelp\AniHelp\obj\Debug\AniHelp.csprojResolveAssemblyReference.cache
 C:\Users\motya\source\repos\AniHelp\AniHelp\obj\Debug\AniHelp.csproj.CoreCompileInputs.cache
 C:\Users\motya\source\repos\AniHelp\AniHelp\bin\Debug\AniHelp.dll.config
 C:\Users\motya\source\repos\AniHelp\AniHelp\bin\Debug\AniHelp.dll
