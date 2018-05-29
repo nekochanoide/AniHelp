@@ -64,7 +64,17 @@ namespace AniHelp.UI
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            var lv = new LicenceValidator();
+            if (!lv.HasLicense)
+            {
+                MessageBox.Show("Лицензия не найдена. Купите её за три рубля где нибудь.");
+                Application.Exit();
+            }
+            if (!lv.IsValid)
+            {
+                MessageBox.Show("Лицензия просрочена. Купите её за три рубля где нибудь.");
+                Application.Exit();
+            }
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -152,5 +162,6 @@ namespace AniHelp.UI
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
         }
+
     }
 }
