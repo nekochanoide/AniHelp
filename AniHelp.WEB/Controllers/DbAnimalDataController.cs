@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Web;
+using System.Web.Hosting;
 using System.Web.Mvc;
 using AniHelp.WEB.Models;
+using OfficeOpenXml;
 
 namespace AniHelp.WEB.Controllers
 {
@@ -53,7 +56,6 @@ namespace AniHelp.WEB.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-
             return View(dbAnimalData);
         }
 
@@ -84,7 +86,43 @@ namespace AniHelp.WEB.Controllers
             db.SaveChanges();
             return RedirectToAction("Index");
         }
+        public ActionResult Download(int id)
+        {
+            DbAnimalData g = db.AnimalDatas.Find(id);
 
+            ExcelPackage pkg;
+            using (var stream = System.IO.File.OpenRead
+                (HostingEnvironment.ApplicationPhysicalPath + "template.xlsx"))
+            {
+                pkg = new ExcelPackage(stream);
+                stream.Dispose();
+            }
+
+            var worksheet = pkg.Workbook.Worksheets[1];
+            worksheet.Name = g.Name == "" ? "Лист1" : g.Name;
+
+            worksheet.Cells[2, 1].Value = g.Filled.ToString("dd MMMM, yyyy");
+            worksheet.Cells[2, 2].Value = g.Name;
+            worksheet.Cells[2, 3].Value = g.SeizurePlace;
+            worksheet.Cells[2, 4].Value = g.Collar;
+            worksheet.Cells[2, 5].Value = g.Pregnancy ? "Есть" : "Нет";
+            worksheet.Cells[2, 6].Value = g.CrueltySigns ? "Есть" : "Нет";
+            worksheet.Cells[2, 7].Value = g.EuthanasiaCause;
+            worksheet.Cells[2, 8].Value = g.Action.ToString().Replace("_", " ");
+
+            int i = 2;
+            foreach (var e in g.HealthTroubles)
+            {
+                worksheet.Cells[i, 9].Value = e.HealthTrouble;
+                i++;
+            }
+
+            // Заполнение файла Excel вышими данными
+            var ms = new MemoryStream();
+            pkg.SaveAs(ms);
+            return File(ms.ToArray(), "application/ooxml",
+                    (g.Name == "" ? "Без Названия" : g.Name).Replace(" ", "") + ".xlsx");
+        }
         protected override void Dispose(bool disposing)
         {
             if (disposing)

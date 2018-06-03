@@ -140,3 +140,7 @@ C:\Users\motya\source\repos\AniHelp\AniHelp.WEB\bin\ru\Microsoft.Owin.Security.M
 C:\Users\motya\source\repos\AniHelp\AniHelp.WEB\obj\Debug\AniHelp.WEB.csproj.CopyComplete
 C:\Users\motya\source\repos\AniHelp\AniHelp.WEB\obj\Debug\AniHelp.WEB.dll
 C:\Users\motya\source\repos\AniHelp\AniHelp.WEB\obj\Debug\AniHelp.WEB.pdb
+C:\Users\motya\source\repos\AniHelp\AniHelp.WEB\bin\DocumentFormat.OpenXml.dll
+C:\Users\motya\source\repos\AniHelp\AniHelp.WEB\bin\EPPlus.dll
+C:\Users\motya\source\repos\AniHelp\AniHelp.WEB\bin\DocumentFormat.OpenXml.xml
+C:\Users\motya\source\repos\AniHelp\AniHelp.WEB\bin\EPPlus.xml

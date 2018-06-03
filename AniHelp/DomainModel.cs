@@ -62,22 +62,22 @@ namespace AniHelp
         /// <summary>
         /// Отпущен
         /// </summary>
-        Released,
+        Отпущен,
         /// <summary>
         /// Госпитализация
         /// </summary>
-        Hospitalization,
+        Госпитализирован,
         /// <summary>
         /// Поиск хозяина
         /// </summary>
-        OwnerSearch,
+        Поиск_Хозяина,
         /// <summary>
         /// Отправить в приют для животных
         /// </summary>
-        SendToAnimalShelter,
+        Отправлен_в_приют,
         /// <summary>
         /// Утилизация тела
         /// </summary>
-        BodyDispose,
+        Утилизация,
     }
 }

@@ -241,11 +241,11 @@
             this.comboBox1.Font = new System.Drawing.Font("Times New Roman", 14F);
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "Отпустить",
-            "Госпитализировать",
+            "Отпущен",
+            "Госпитализирован",
             "Поиск хозяина",
-            "Отправить в приют",
-            "Утилизировать тело"});
+            "Отправлен в приют",
+            "Утилизировано тело"});
             this.comboBox1.Location = new System.Drawing.Point(212, 425);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(200, 29);
